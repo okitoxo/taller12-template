@@ -1,0 +1,97 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#header {
+  padding: 0 30px; }
+  @media (max-width: 1199px) {
+    #header {
+      padding: 0 15px; } }
+
+@media (min-width: 1500px) {
+  .center-header {
+    position: relative !important; } }
+
+#header #search_widget {
+  padding: 30px 17px; }
+  @media (max-width: 991px) {
+    #header #search_widget {
+      padding: 13px 17px; } }
+  #header #search_widget:after {
+    content: "";
+    position: absolute;
+    background: #b7b7b7;
+    width: 1px;
+    height: 16px;
+    bottom: 50%;
+    top: auto;
+    left: 0;
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    transform: translateY(50%); }
+    .rtl #header #search_widget:after {
+      right: 0;
+      left: auto; }
+
+.userinfo-selector .popup-title {
+  color: #121212;
+  padding: 13px 17px 13px 0; }
+  .rtl .userinfo-selector .popup-title {
+    padding: 13px 0 13px 17px; }
+  @media (min-width: 992px) {
+    .userinfo-selector .popup-title {
+      padding: 30px 17px 30px 0; }
+      .rtl .userinfo-selector .popup-title {
+        padding: 30px 0 30px 17px; } }
+  .userinfo-selector .popup-title i {
+    font-size: 16px; }
+  .userinfo-selector .popup-title .user_title, .userinfo-selector .popup-title .icon-arrow-down {
+    display: none; }
+.userinfo-selector .popup-content {
+  left: inherit;
+  right: 0; }
+  .rtl .userinfo-selector .popup-content {
+    left: 0;
+    right: auto; }
+
+#leo_block_top .popup-content {
+  min-width: 180px; }
+
+/*** #cart-block ***/
+#cart-block {
+  padding: 30px 0 30px 17px; }
+  .rtl #cart-block {
+    padding: 30px 17px 30px 0; }
+  @media (max-width: 991px) {
+    #cart-block {
+      padding: 13px 0 13px 17px; }
+      .rtl #cart-block {
+        padding: 13px 17px 13px 0; } }
+
+/*** MENU ***/
+.leo-megamenu .navbar-nav > li > a {
+  padding: 30px 20px; }
+  @media (max-width: 1199px) {
+    .leo-megamenu .navbar-nav > li > a {
+      padding: 30px 15px; } }
+
+/*# sourceMappingURL=headerposition1524345860.css.map */

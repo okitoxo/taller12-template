@@ -1,0 +1,202 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** Title block ***/
+.page-home .ApColumn .title_block {
+  width: 100%;
+  padding-bottom: 0;
+  padding-top: 120px; }
+  @media (max-width: 991px) {
+    .page-home .ApColumn .title_block {
+      padding-top: 50px; } }
+  .page-home .ApColumn .title_block:before {
+    display: none; }
+.page-home .ApColumn .ApProductList .title_block {
+  padding-top: 80px; }
+  @media (max-width: 991px) {
+    .page-home .ApColumn .ApProductList .title_block {
+      padding-top: 20px; } }
+
+/** product **/
+.thumbnail-container {
+  text-align: center; }
+
+/** Brand **/
+.gr-brand {
+  padding: 80px 0; }
+
+.boxBrandsTitle {
+  text-align: center; }
+  @media (min-width: 992px) {
+    .boxBrandsTitle {
+      text-align: right; }
+      .rtl .boxBrandsTitle {
+        text-align: left; } }
+  .boxBrandsTitle .ApHtml {
+    margin-bottom: 50px; }
+    @media (max-width: 991px) {
+      .boxBrandsTitle .ApHtml {
+        max-width: 80%;
+        margin: 0 auto 50px; } }
+    @media (max-width: 575px) {
+      .boxBrandsTitle .ApHtml {
+        max-width: 100%;
+        margin: 0; } }
+  .boxBrandsTitle h4 {
+    font-size: 32px;
+    line-height: 40px; }
+  .boxBrandsTitle .ApBlockLink a {
+    text-transform: uppercase;
+    color: #67a840;
+    font-weight: 500;
+    position: relative;
+    padding: 3px 0; }
+    .boxBrandsTitle .ApBlockLink a:before {
+      content: "";
+      background: #67a840;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0; }
+      .rtl .boxBrandsTitle .ApBlockLink a:before {
+        right: 0;
+        left: auto; }
+    .boxBrandsTitle .ApBlockLink a:after {
+      content: "\f178";
+      font-family: "FontAwesome";
+      padding-left: 5px; }
+      .rtl .boxBrandsTitle .ApBlockLink a:after {
+        padding-right: 5px;
+        padding-left: inherit; }
+    .boxBrandsTitle .ApBlockLink a:hover {
+      color: #000000; }
+      .boxBrandsTitle .ApBlockLink a:hover:before {
+        background: #000000; }
+
+.ApColumn .manufacturers_block {
+  padding: 0; }
+  .ApColumn .manufacturers_block .owl-item {
+    padding: 0;
+    border-right: 1px solid #ddd; }
+    .rtl .ApColumn .manufacturers_block .owl-item {
+      border-left: 1px solid #ddd;
+      border-right: inherit; }
+    .ApColumn .manufacturers_block .owl-item:last-child {
+      border: none; }
+    .ApColumn .manufacturers_block .owl-item .manufacturer-container {
+      border-bottom: 1px solid #ddd; }
+      .ApColumn .manufacturers_block .owl-item .manufacturer-container:last-child {
+        border: none; }
+
+/* Skin */
+.blue .boxBrandsTitle .ApBlockLink a {
+  color: #6AAFE6; }
+  .blue .boxBrandsTitle .ApBlockLink a:before {
+    background: #6AAFE6; }
+.blue .leoContent .htmlOneTitle:before {
+  background: #6AAFE6; }
+.blue .leoContent .htmlOneTitle span {
+  color: #6AAFE6; }
+.blue .leoContent .btn:hover {
+  background: #6AAFE6; }
+.blue .leoHTMLThreeCaption .btn:hover {
+  background: #6AAFE6; }
+
+.deeppink .boxBrandsTitle .ApBlockLink a {
+  color: #FF1493; }
+  .deeppink .boxBrandsTitle .ApBlockLink a:before {
+    background: #FF1493; }
+.deeppink .leoContent .htmlOneTitle:before {
+  background: #FF1493; }
+.deeppink .leoContent .htmlOneTitle span {
+  color: #FF1493; }
+.deeppink .leoContent .btn:hover {
+  background: #FF1493; }
+.deeppink .leoHTMLThreeCaption .btn:hover {
+  background: #FF1493; }
+
+.green .boxBrandsTitle .ApBlockLink a {
+  color: #8bc43f; }
+  .green .boxBrandsTitle .ApBlockLink a:before {
+    background: #8bc43f; }
+.green .leoContent .htmlOneTitle:before {
+  background: #8bc43f; }
+.green .leoContent .htmlOneTitle span {
+  color: #8bc43f; }
+.green .leoContent .btn:hover {
+  background: #8bc43f; }
+.green .leoHTMLThreeCaption .btn:hover {
+  background: #8bc43f; }
+
+.lime .boxBrandsTitle .ApBlockLink a {
+  color: #41A317; }
+  .lime .boxBrandsTitle .ApBlockLink a:before {
+    background: #41A317; }
+.lime .leoContent .htmlOneTitle:before {
+  background: #41A317; }
+.lime .leoContent .htmlOneTitle span {
+  color: #41A317; }
+.lime .leoContent .btn:hover {
+  background: #41A317; }
+.lime .leoHTMLThreeCaption .btn:hover {
+  background: #41A317; }
+
+.olive .boxBrandsTitle .ApBlockLink a {
+  color: #808000; }
+  .olive .boxBrandsTitle .ApBlockLink a:before {
+    background: #808000; }
+.olive .leoContent .htmlOneTitle:before {
+  background: #808000; }
+.olive .leoContent .htmlOneTitle span {
+  color: #808000; }
+.olive .leoContent .btn:hover {
+  background: #808000; }
+.olive .leoHTMLThreeCaption .btn:hover {
+  background: #808000; }
+
+.purple .boxBrandsTitle .ApBlockLink a {
+  color: #8A2CB1; }
+  .purple .boxBrandsTitle .ApBlockLink a:before {
+    background: #8A2CB1; }
+.purple .leoContent .htmlOneTitle:before {
+  background: #8A2CB1; }
+.purple .leoContent .htmlOneTitle span {
+  color: #8A2CB1; }
+.purple .leoContent .btn:hover {
+  background: #8A2CB1; }
+.purple .leoHTMLThreeCaption .btn:hover {
+  background: #8A2CB1; }
+
+.yellow .boxBrandsTitle .ApBlockLink a {
+  color: #edb42c; }
+  .yellow .boxBrandsTitle .ApBlockLink a:before {
+    background: #edb42c; }
+.yellow .leoContent .htmlOneTitle:before {
+  background: #edb42c; }
+.yellow .leoContent .htmlOneTitle span {
+  color: #edb42c; }
+.yellow .leoContent .btn:hover {
+  background: #edb42c; }
+.yellow .leoHTMLThreeCaption .btn:hover {
+  background: #edb42c; }
+
+/*# sourceMappingURL=profile1525474743.css.map */

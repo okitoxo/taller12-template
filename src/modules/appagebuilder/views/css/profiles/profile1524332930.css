@@ -1,0 +1,63 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.ApSlideShow {
+  margin-bottom: 30px; }
+
+.page-home .ApColumn .title_block {
+  padding-bottom: 0; }
+  @media (min-width: 992px) {
+    .page-home .ApColumn .title_block {
+      padding-top: 80px; } }
+  .page-home .ApColumn .title_block:before {
+    display: none; }
+
+/*** MANU ***/
+.ApColumn .manufacturers_block {
+  border-top: 1px solid #e5e5e5; }
+
+/*** ABOUT-CONTENT ***/
+.gr-about-content {
+  margin-top: 50px; }
+  @media (max-width: 767px) {
+    .gr-about-content {
+      padding: 30px 0;
+      margin-top: 0; } }
+  .gr-about-content .ApColumn .block {
+    margin-bottom: 0; }
+    .gr-about-content .ApColumn .block.ApImage {
+      position: relative; }
+      @media (min-width: 768px) {
+        .gr-about-content .ApColumn .block.ApImage {
+          top: -50px; } }
+    .gr-about-content .ApColumn .block.ApRawHtml {
+      padding: 70px 0 50px; }
+      @media (max-width: 767px) {
+        .gr-about-content .ApColumn .block.ApRawHtml {
+          padding: 30px 0; } }
+  .gr-about-content .about-content h4 {
+    font-size: 32px;
+    font-weight: 500; }
+  .gr-about-content .about-content p {
+    line-height: 23px;
+    margin: 50px 0 40px; }
+
+/*# sourceMappingURL=profile1524332930.css.map */

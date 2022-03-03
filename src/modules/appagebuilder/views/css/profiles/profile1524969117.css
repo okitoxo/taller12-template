@@ -1,0 +1,74 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+body.layout-boxed-lg #page {
+  padding-left: 0; }
+  .rtl body.layout-boxed-lg #page {
+    padding-right: 0;
+    padding-left: inherit; }
+
+@media (min-width: 1200px) {
+  .page-home {
+    margin-top: 30px; }
+
+  #page {
+    padding-left: 304px; }
+    .rtl #page {
+      padding-right: 304px;
+      padding-left: inherit; } }
+/*** .containerLarge ***/
+@media (min-width: 992px) {
+  .containerLarge {
+    width: 1584px; } }
+
+/*** widget-category_image ***/
+.ApColumn .widget-category_image {
+  margin-bottom: 30px; }
+  @media (max-width: 991px) and (min-width: 768px) {
+    .ApColumn .widget-category_image .nbproducts {
+      font-size: 16px;
+      top: 15px;
+      left: 15px; }
+      .rtl .ApColumn .widget-category_image .nbproducts {
+        right: 15px;
+        left: auto; } }
+  .ApColumn .widget-category_image.image-category-large .nbproducts {
+    top: auto;
+    bottom: 50%;
+    width: 100%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%); }
+    .rtl .ApColumn .widget-category_image.image-category-large .nbproducts {
+      right: 50%;
+      left: auto; }
+    [dir="rtl"] .ApColumn .widget-category_image.image-category-large .nbproducts {
+      -webkit-transform: translate(50%, 50%);
+      -moz-transform: translate(50%, 50%);
+      -ms-transform: translate(50%, 50%);
+      -o-transform: translate(50%, 50%);
+      transform: translate(50%, 50%); }
+
+/*# sourceMappingURL=profile1524969117.css.map */

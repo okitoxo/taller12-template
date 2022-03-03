@@ -1,0 +1,144 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+@media (min-width: 992px) {
+  #page {
+    padding-left: 100px; }
+    .rtl #page {
+      padding-right: 100px;
+      padding-left: inherit; } }
+body.layout-boxed-lg #page {
+  padding-left: 0; }
+  .rtl body.layout-boxed-lg #page {
+    padding-right: 0;
+    padding-left: inherit; }
+
+.page-home .ApColumn .title_block {
+  padding-bottom: 0; }
+  @media (min-width: 992px) {
+    .page-home .ApColumn .title_block {
+      padding-top: 80px; } }
+  .page-home .ApColumn .title_block:before {
+    display: none; }
+
+/** scroll down **/
+.gr-slide .block.ApRawHtml {
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 40px;
+  text-align: center;
+  width: 100%; }
+.gr-slide .scroll-down {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer; }
+
+/*** .containerLarge ***/
+@media (min-width: 992px) {
+  .containerLarge {
+    width: 1750px; } }
+
+/** product **/
+.block.ApProductList {
+  text-align: center; }
+  @media (min-width: 1200px) {
+    .block.ApProductList .ajax_block_product:nth-child(3n+1) {
+      clear: both; } }
+  @media (max-width: 1199px) and (min-width: 768px) {
+    .block.ApProductList .ajax_block_product:nth-child(2n+1) {
+      clear: both; } }
+  @media (max-width: 767px) and (min-width: 481px) {
+    .block.ApProductList .ajax_block_product:nth-child(2n+1) {
+      clear: both; } }
+
+/** newletter **/
+.ApColumn .block_newsletter {
+  text-align: center;
+  max-width: 570px;
+  margin: 100px auto; }
+  .ApColumn .block_newsletter .title_block, .ApColumn .block_newsletter .sub-letter {
+    display: none; }
+  .ApColumn .block_newsletter .title_sub {
+    display: block; }
+  .ApColumn .block_newsletter form {
+    border: 1px solid #121212; }
+    .ApColumn .block_newsletter form .btn {
+      background: #000000;
+      color: #FFFFFF; }
+      .ApColumn .block_newsletter form .btn:hover {
+        background: #67a840;
+        color: #FFFFFF; }
+      .ApColumn .block_newsletter form .btn:before {
+        display: none; }
+    .ApColumn .block_newsletter form input[type=text] {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #888; }
+      .ApColumn .block_newsletter form input[type=text]::-webkit-input-placeholder {
+        color: #888; }
+      .ApColumn .block_newsletter form input[type=text]::-moz-placeholder {
+        color: #888; }
+      .ApColumn .block_newsletter form input[type=text]:-moz-placeholder {
+        color: #888; }
+      .ApColumn .block_newsletter form input[type=text]:-ms-input-placeholder {
+        color: #888; }
+
+/* Skin */
+.blue .box-banner-image .ApColumn .block.ApImage .image_description a:hover {
+  color: #6AAFE6; }
+.blue .ApColumn .block_newsletter form .btn:hover {
+  background: #6AAFE6; }
+
+.deeppink .box-banner-image .ApColumn .block.ApImage .image_description a:hover {
+  color: #FF1493; }
+.deeppink .ApColumn .block_newsletter form .btn:hover {
+  background: #FF1493; }
+
+.green .box-banner-image .ApColumn .block.ApImage .image_description a:hover {
+  color: #8bc43f; }
+.green .ApColumn .block_newsletter form .btn:hover {
+  background: #8bc43f; }
+
+.lime .box-banner-image .ApColumn .block.ApImage .image_description a:hover {
+  color: #41A317; }
+.lime .ApColumn .block_newsletter form .btn:hover {
+  background: #41A317; }
+
+.olive .box-banner-image .ApColumn .block.ApImage .image_description a:hover {
+  color: #808000; }
+.olive .ApColumn .block_newsletter form .btn:hover {
+  background: #808000; }
+
+.purple .box-banner-image .ApColumn .block.ApImage .image_description a:hover {
+  color: #8A2CB1; }
+.purple .ApColumn .block_newsletter form .btn:hover {
+  background: #8A2CB1; }
+
+.yellow .box-banner-image .ApColumn .block.ApImage .image_description a:hover {
+  color: #edb42c; }
+.yellow .ApColumn .block_newsletter form .btn:hover {
+  background: #edb42c; }
+
+/*# sourceMappingURL=profile1524432514.css.map */

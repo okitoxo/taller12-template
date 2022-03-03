@@ -1,0 +1,2 @@
+****templates change:
+- templates\catalog\product.tpl

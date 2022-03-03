@@ -1,0 +1,96 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.addToCartForm {
+  margin-top: 10px; }
+
+.addToCartButtonNumber {
+  padding: 9px 10px;
+  float: left;
+  width: 20%;
+  height: 2.75rem; }
+
+.addToCartButtonBox {
+  margin: 0 auto 30px !important;
+  height: 2.75rem;
+  display: block;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  font-family: "Open Sans", sans-serif !important;
+  box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.1) !important;
+  border: none; }
+
+.preLoading {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  right: 0px;
+  background: rgba(0, 0, 0, 0.6) !important;
+  background-image: url(../../../../../assets/img/modules/appagebuilder/img/ajax-loader-white.gif) !important;
+  z-index: 999;
+  border: none !important;
+  background-size: 30px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important; }
+
+.addToCartFormWrapper {
+  padding: 10px 0;
+  background-color: white;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+  box-shadow: none; }
+  .addToCartFormWrapper .product-variants-item {
+    margin-top: 7px; }
+  .addToCartFormWrapper .control-label {
+    bottom: 5px;
+    position: relative; }
+  .addToCartFormWrapper .form-control-select {
+    margin-bottom: 10px;
+    text-align: center;
+    -ms-text-align-last: center;
+    -moz-text-align-last: center;
+    text-align-last: center; }
+  .addToCartFormWrapper .groupUl {
+    margin: 0 auto;
+    display: table; }
+  .addToCartFormWrapper .groupUl li {
+    float: left !important; }
+  .addToCartFormWrapper .groupLi {
+    margin-right: 0.625rem; }
+  .addToCartFormWrapper .add-to-cart {
+    background: #000000; }
+    .addToCartFormWrapper .add-to-cart:active, .addToCartFormWrapper .add-to-cart:hover {
+      background: #67a840;
+      color: #FFFFFF; }
+
+#productCombinations {
+  font-size: 14px;
+  text-align: center;
+  -ms-text-align-last: center;
+  -moz-text-align-last: center;
+  text-align-last: center; }
+
+/*# sourceMappingURL=style.css.map */

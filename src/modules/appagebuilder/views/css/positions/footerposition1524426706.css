@@ -1,0 +1,101 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.footer-container {
+  background: transparent;
+  padding: 0;
+  color: #666666; }
+  .footer-container .block .title_block {
+    color: #000000; }
+  .footer-container li a {
+    color: #666666; }
+
+.footer-top {
+  padding: 0;
+  border: none; }
+
+.footer-center {
+  padding: 50px 0; }
+
+.footer-bottom {
+  border-top: 1px solid #e5e5e5; }
+  .footer-bottom:before {
+    background: transparent; }
+
+/*** INSTAGRAM ***/
+.instagram-block .link-instagram {
+  display: none; }
+
+.footer-copyright {
+  color: #666666;
+  padding: 30px 0; }
+
+/* Skin */
+.blue {
+  /* footer */ }
+  .blue .footer-container .ApColumn .ApBlockLink ul li a:hover {
+    color: #6AAFE6; }
+  .blue .footer-copyright span {
+    color: #6AAFE6; }
+
+.deeppink {
+  /* footer */ }
+  .deeppink .footer-container .ApColumn .ApBlockLink ul li a:hover {
+    color: #FF1493; }
+  .deeppink .footer-copyright span {
+    color: #FF1493; }
+
+.green {
+  /* footer */ }
+  .green .footer-container .ApColumn .ApBlockLink ul li a:hover {
+    color: #8bc43f; }
+  .green .footer-copyright span {
+    color: #8bc43f; }
+
+.lime {
+  /* footer */ }
+  .lime .footer-container .ApColumn .ApBlockLink ul li a:hover {
+    color: #41A317; }
+  .lime .footer-copyright span {
+    color: #41A317; }
+
+.olive {
+  /* footer */ }
+  .olive .footer-container .ApColumn .ApBlockLink ul li a:hover {
+    color: #808000; }
+  .olive .footer-copyright span {
+    color: #808000; }
+
+.purple {
+  /* footer */ }
+  .purple .footer-container .ApColumn .ApBlockLink ul li a:hover {
+    color: #8A2CB1; }
+  .purple .footer-copyright span {
+    color: #8A2CB1; }
+
+.yellow {
+  /* footer */ }
+  .yellow .footer-container .ApColumn .ApBlockLink ul li a:hover {
+    color: #edb42c; }
+  .yellow .footer-copyright span {
+    color: #edb42c; }
+
+/*# sourceMappingURL=footerposition1524426706.css.map */
