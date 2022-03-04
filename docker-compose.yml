@@ -24,7 +24,11 @@ services:
       - ALLOW_EMPTY_PASSWORD=yes
     volumes:
       - 'prestashop_data:/bitnami/prestashop'
-      - './src:/bitnami/prestashop/themes/at_plants_store'
+      - './src:/at_plants_store'
+      # - './src:/bitnami/prestashop/themes/at_plants_store'
+    command: ["/opt/bitnami/scripts/apache/run.sh", "&&",
+            "cd /bitnami/prestashop/themes",
+            "&&", "ln -s /at_plants_store", "&&", "ls -la"]
     depends_on:
       - mariadb
 volumes:
