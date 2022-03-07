@@ -2,6 +2,8 @@ version: '2'
 services:
   mariadb:
     image: docker.io/bitnami/mariadb:10.4
+    ports:
+      - '33:3306'
     environment:
       # ALLOW_EMPTY_PASSWORD is recommended only for development.
       - ALLOW_EMPTY_PASSWORD=yes
@@ -26,9 +28,8 @@ services:
       - 'prestashop_data:/bitnami/prestashop'
       - './src:/at_plants_store'
       # - './src:/bitnami/prestashop/themes/at_plants_store'
-    command: ["/opt/bitnami/scripts/apache/run.sh", "&&",
-            "cd /bitnami/prestashop/themes",
-            "&&", "ln -s /at_plants_store", "&&", "ls -la"]
+    command: >
+        /opt/bitnami/scripts/apache/run.sh && cd /bitnami/prestashop/themes && ln -s /at_plants_store
     depends_on:
       - mariadb
 volumes:
